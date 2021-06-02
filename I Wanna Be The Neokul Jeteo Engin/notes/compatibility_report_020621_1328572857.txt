@@ -1,0 +1,289 @@
+Converting GML script: ${project_dir}\scripts\killPlayer\killPlayer.gml
+Converted builtin - line 25: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 25: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\scripts\world_Date\world_Date.gml
+Converted description /// @description  게임 시작시 설정
+
+Font signFont has been converted to font family Copperplate Gothic Bold (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\signFont\signFont.gms1.png
+Font titleFont has been converted to font family Copperplate Gothic Bold (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\titleFont\titleFont.gms1.png
+!!! Font deathsFont uses a font (고도 B) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\deathsFont\deathsFont.gms1.png
+Converting GML script: ${project_dir}\timelines\timeline0\moment_20.gml
+Converted description /// @description 이 타임라인은 허니버터칩 보스의 타임라인 입니다.
+
+Converting GML script: ${project_dir}\objects\obj_extra\Create_0.gml
+Converted description /// @description 로딩룸을 꾸밀 장식물
+
+Converting GML script: ${project_dir}\objects\block\Create_0.gml
+Converted description /// @description 블럭
+
+Converting GML script: ${project_dir}\objects\block\Collision_554d8a87-bf3a-4757-8ef9-32f34d0fc225.gml
+Converted description /// @description 시체가 땅에 닿을시
+
+Converting GML script: ${project_dir}\objects\disappearingBlock\Create_0.gml
+Converted description /// @description 훼이크 발판(밟으면 없어짐)/// @param 밟으면 없어짐
+
+Converting GML script: ${project_dir}\objects\invisBlock\Create_0.gml
+Converted description /// @description 밟으면 보이는 블럭
+
+Converting GML script: ${project_dir}\objects\Iforgot1\Create_0.gml
+Converted description /// @description 나타났다가 사라지는 무한반복 블럭
+
+Converting GML script: ${project_dir}\objects\bloodSquirt\Create_0.gml
+Converted description /// @description 주인공의 피를 표현함
+
+Converting GML script: ${project_dir}\objects\camera\Step_0.gml
+Converted builtin - line 4: view_xview[0] = floor(player.x/800)*800 -> __view_set( e__VW.XView, 0, floor(player.x/800)*800 )
+Converted builtin - line 5: view_yview[0] = floor(player.y/480)*480 -> __view_set( e__VW.YView, 0, floor(player.y/480)*480 )
+
+Converting GML script: ${project_dir}\objects\playerSpawn\Create_0.gml
+Converted description /// @description 플레이어가 없을시 생성
+
+Converting GML script: ${project_dir}\objects\world\Create_0.gml
+Converted description /// @description 게임상의 전세계를 표현함
+
+Converting GML script: ${project_dir}\objects\world\Step_0.gml
+Converted builtin - line 17: view_angle[0]=0 -> __view_set( e__VW.Angle, 0, 0 )
+Converted description /// @description 난이도를 결정
+
+Converting GML script: ${project_dir}\objects\world\Mouse_53.gml
+Converted description /// @description 터치로 로딩룸 이동
+
+Converting GML script: ${project_dir}\objects\world\Other_4.gml
+Converted description /// @description 룸 스피드는 50
+
+Converting GML script: ${project_dir}\objects\world\Draw_0.gml
+Converted builtin - line 21: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 25: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 26: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 30: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 31: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 36: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 37: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 41: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 42: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 45: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 46: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 22: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 25: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 26: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 30: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 31: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 36: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 37: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 41: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 42: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 45: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 46: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Touch the screen 그리기
+
+Converting GML script: ${project_dir}\objects\world\KeyPress_115.gml
+Converted description /// @description 알트와 같이누르면 게임이 종료됨
+
+Converting GML script: ${project_dir}\objects\world\KeyPress_113.gml
+Converted description /// @description 음악과 게임이 다시시작됨.
+
+Converting GML script: ${project_dir}\objects\world\KeyPress_16.gml
+Converted description /// @description 터치로 로딩룸 이동
+
+Converting GML script: ${project_dir}\objects\world\KeyPress_8.gml
+Converted description /// @description 모바일 상태에서 뒤로가기 누를시 사용됨//
+
+Converting GML script: ${project_dir}\objects\load_goto\Create_0.gml
+Converted description /// @description 룸으로 일단 이동
+
+Converting GML script: ${project_dir}\objects\load_goto\Alarm_1.gml
+Converted description /// @description 플레이이어가 저장된곳으로 이동
+
+Converting GML script: ${project_dir}\objects\load_goto\Alarm_0.gml
+Converted description /// @description 플레이어가 없을경우 생성
+
+Converting GML script: ${project_dir}\objects\loadButton\Create_0.gml
+Converted description /// @description 게임을 시작함
+
+Converting GML script: ${project_dir}\objects\DataButton\Create_0.gml
+Converted description /// @description 게임 데이터를 삭제 시킴
+
+Converting GML script: ${project_dir}\objects\DataButton\Mouse_7.gml
+Converted description /// @description 데이터 삭제
+
+Converting GML script: ${project_dir}\objects\warp\Collision_c2caae21-e450-41ee-82de-cdaea9a4a53e.gml
+Converted description /// @description 보이는 포탈 오브젝트
+
+Converting GML script: ${project_dir}\objects\warp2\Collision_17b0a77b-6602-47e4-bef4-08253d6a36d6.gml
+Converted description /// @description 안보이는 포탈 오브젝트
+
+Converting GML script: ${project_dir}\objects\GAMEOVER\Step_0.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description 자신이 보임
+
+Converting GML script: ${project_dir}\objects\GAMEOVER\Mouse_53.gml
+Converted builtin - line 8: view_angle[0]=0 -> __view_set( e__VW.Angle, 0, 0 )
+Converted description /// @description 모바일 죽을시 부활
+
+Converting GML script: ${project_dir}\objects\bow\Create_0.gml
+Converted description /// @description 난이도를 불러옴
+
+Converting GML script: ${project_dir}\objects\head\Collision_8cdf8436-67a6-4ddc-bf67-b353e414e1c9.gml
+Converted description /// @description 블럭에 닿을면 중력이 사라짐
+
+Converting GML script: ${project_dir}\objects\player\Create_0.gml
+Converted description /// @description 키드 기본설정
+
+Converting GML script: ${project_dir}\objects\player\Step_2.gml
+Converted description /// @description 대각블럭
+
+Converting GML script: ${project_dir}\objects\player\Step_1.gml
+Converted description /// @description 조작
+
+Converting GML script: ${project_dir}\objects\player\Step_0.gml
+Converted description /// @description 조이스틱
+
+Converting GML script: ${project_dir}\objects\player\Collision_251280b5-4276-43ac-a023-49a76ca57336.gml
+Converted description /// @description 긴 모얼점핑
+
+Converting GML script: ${project_dir}\objects\player\Collision_af025c80-2e20-47d2-b491-4d219ac9d0b5.gml
+Converted description /// @description 짧은 모얼점핑
+
+Converting GML script: ${project_dir}\objects\player\Collision_0e887f8b-7f9b-4533-b90a-c0a445711d05.gml
+Converted description /// @description 블럭 설정
+
+Converting GML script: ${project_dir}\objects\player\Other_4.gml
+Converted description /// @description 키패드
+
+Converting GML script: ${project_dir}\objects\player\Other_0.gml
+Converted description /// @description 화면 밖을 나가면 사망
+
+Converting GML script: ${project_dir}\objects\effect\Create_0.gml
+Converted description /// @description snd_Barrel 사운드 재생
+
+Converting GML script: ${project_dir}\objects\effect\Step_0.gml
+Converted description /// @description 효과 생성
+
+Converting GML script: ${project_dir}\objects\upisdown\Collision_f23c9928-937a-4326-93a2-a6d1a265b52c.gml
+Converted description /// @description 초기화 시킴
+
+Converting GML script: ${project_dir}\objects\water\Collision_571ccbbc-712b-4475-82b9-34ceff92e539.gml
+Converted description /// @description 물속을 표현
+
+Converting GML script: ${project_dir}\objects\vineL\Step_0.gml
+Converted description /// @description PC벽타기
+
+Converting GML script: ${project_dir}\objects\vineR\Step_0.gml
+Converted description /// @description PC벽타기
+
+Converting GML script: ${project_dir}\objects\Earthquake\Alarm_0.gml
+Converted builtin - line 2: view_yview[0]=480 -> __view_set( e__VW.YView, 0, 480 )
+Converted builtin - line 1: view_wview[0]=800 -> __view_set( e__VW.WView, 0, 800 )
+
+Converting GML script: ${project_dir}\objects\Earthquake\Step_0.gml
+Converted builtin - line 1: view_xview[0]=a-b -> __view_set( e__VW.XView, 0, a-b )
+Converted builtin - line 2: view_yview[0]=c-d -> __view_set( e__VW.YView, 0, c-d )
+
+Converting GML script: ${project_dir}\objects\obj_Clime\Step_0.gml
+Converted description /// @description 사디리
+
+Converting GML script: ${project_dir}\objects\g_red\Step_0.gml
+Converted description /// @description 위~아래~위~위~아래 로 움직이게한다
+
+Converting GML script: ${project_dir}\objects\g_red\Collision_1fd37144-f4cc-4869-8e00-e590d8a3fee0.gml
+Converted description /// @description 중력을 체인지함
+
+Converting GML script: ${project_dir}\objects\g_blue\Step_0.gml
+Converted description /// @description 위~아래~위~위~아래 로 움직이게한다
+
+Converting GML script: ${project_dir}\objects\g_blue\Collision_7d6cf22d-e651-4323-80c0-34c971b1b8b2.gml
+Converted description /// @description 중력을 다시 체인지함
+
+Converting GML script: ${project_dir}\objects\obj_change\Step_0.gml
+Converted builtin - line 2: view_angle[0] -> __view_get( e__VW.Angle, 0 )
+Converted builtin - line 16: view_angle[0] -> __view_get( e__VW.Angle, 0 )
+Converted builtin - line 22: view_angle[0] -> __view_get( e__VW.Angle, 0 )
+Converted builtin - line 36: view_angle[0] -> __view_get( e__VW.Angle, 0 )
+Converted builtin - line 41: view_angle[0] -> __view_get( e__VW.Angle, 0 )
+Converted builtin - line 14: view_angle[0]+=20 -> __view_set( e__VW.Angle, 0, __view_get( e__VW.Angle, 0 ) + (20) )
+Converted builtin - line 27: view_angle[0]+=20 -> __view_set( e__VW.Angle, 0, __view_get( e__VW.Angle, 0 ) + (20) )
+Converted builtin - line 42: view_angle[0]=0 -> __view_set( e__VW.Angle, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\moerjumping1\Step_0.gml
+Converted description /// @description 위~아래~위~위~아래 로 움직이게한다
+
+Converting GML script: ${project_dir}\objects\lomoerjumping1\Step_0.gml
+Converted description /// @description 위~아래~위~위~아래 로 움직이게한다
+
+Converting GML script: ${project_dir}\objects\obj_controller\Step_2.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_jumpbutten\Step_2.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_jumpbutten\Step_0.gml
+Converted description /// @description 점프 
+
+Converting GML script: ${project_dir}\objects\obj_shotbutten\Step_2.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_shotbutten\Step_0.gml
+Converted description /// @description 샷
+
+Converting GML script: ${project_dir}\objects\obj_restart\Step_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_restart\Mouse_4.gml
+Converted builtin - line 2: view_angle[0]=0 -> __view_set( e__VW.Angle, 0, 0 )
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'snd9D' - setting to default audio group
+Missing audiogroup for sound: 'sndOnDeath' - setting to default audio group
+Missing audiogroup for sound: 'sndKISelect' - setting to default audio group
+Missing audiogroup for sound: 'sndService' - setting to default audio group
+Missing audiogroup for sound: 'sndBlockChange' - setting to default audio group
+Missing audiogroup for sound: 'sndBlockFall' - setting to default audio group
+Missing audiogroup for sound: 'sndBossHit' - setting to default audio group
+Missing audiogroup for sound: 'sndBulletBounce' - setting to default audio group
+Missing audiogroup for sound: 'sndCherry' - setting to default audio group
+Missing audiogroup for sound: 'sndEnemyHit' - setting to default audio group
+Missing audiogroup for sound: 'sndItem' - setting to default audio group
+Missing audiogroup for sound: 'sndJump' - setting to default audio group
+Missing audiogroup for sound: 'sndShoot' - setting to default audio group
+Missing audiogroup for sound: 'sndSpikeTrap' - setting to default audio group
+Missing audiogroup for sound: 'sndWTFBoom' - setting to default audio group
+Missing audiogroup for sound: 'snd_Barrel' - setting to default audio group
+Missing audiogroup for sound: 'sndDJump' - setting to default audio group
+Missing audiogroup for sound: 'sndSave' - setting to default audio group
+Missing audiogroup for sound: 'sndService2' - setting to default audio group
+Missing audiogroup for sound: 'sndexplosion' - setting to default audio group
+Missing audiogroup for sound: 'g_sound' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'action/action_create_object_motion.gml'
+Added compatibility script 'action/action_fullscreen.gml'
+Added compatibility script 'action/action_timeline_set.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'sound/sound_play.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
